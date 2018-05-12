@@ -1,0 +1,16 @@
+﻿<Window x:Class="RossCossmoss.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RossCossmoss"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="AUTORIZACIÓN"  HorizontalAlignment="Left" Height="36" Margin="163,22,0,0" VerticalAlignment="Top" Width="197" BorderBrush="#FF272424" Background="White" Foreground="#FF2466C5" FontSize="16"/>
+        <Label x:Name="lblcode"  Content="{Binding Code}" HorizontalAlignment="Left" Margin="200,111,0,0" VerticalAlignment="Top" Height="31" Width="128" Foreground="#FF999191" BorderBrush="#FFAAA7A7" Background="White" FontSize="16"/>
+        <Label Content="La clave es:" HorizontalAlignment="Left" Height="44" Margin="78,111,0,0" VerticalAlignment="Top" Width="117" FontSize="16" Foreground="#FF999191"/>
+        <Button Content="OK" HorizontalAlignment="Left" Height="28" Margin="265,155,0,0" VerticalAlignment="Top" Width="86" Background="#FF3498DB" Foreground="White" BorderBrush="#FF3498DB" FontSize="16"/>
+
+    </Grid>
+</Window>
